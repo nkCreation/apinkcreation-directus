@@ -1,1 +1,2 @@
-web: npm start
+release: npx directus bootstrap
+web: npx directus start
