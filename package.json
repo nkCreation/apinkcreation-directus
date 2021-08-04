@@ -1,0 +1,17 @@
+{
+  "name": "apinkcreation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "directus bootstrap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^9.0.0-rc.88",
+    "directus-extension-editorjs": "^1.0.0-rc.85",
+    "pg": "^8.7.1"
+  }
+}
