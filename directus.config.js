@@ -1,6 +1,7 @@
 module.exports = {
   DB_CONNECTION_STRING:
-    process.env.DB_CONNECTION_STRING || process.env.DATABASE_URL,
+    (process.env.DB_CONNECTION_STRING || process.env.DATABASE_URL) +
+    "?ssl=true",
   RATE_LIMITER_REDIS: process.env.RATE_LIMITER_REDIS || process.env.REDIS_URL,
   CACHE_REDIS: process.env.CACHE_REDIS || process.env.REDIS_URL,
   EMAIL_FROM: process.env.EMAIL_FROM || process.env.MAILGUN_SMTP_LOGIN,
