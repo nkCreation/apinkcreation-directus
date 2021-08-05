@@ -17,6 +17,7 @@ module.exports = {
   ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
   CACHE_ENABLED: process.env.CACHE_ENABLED,
   CACHE_NAMESPACE: process.env.CACHE_NAMESPACE,
+  CACHE_AUTO_PURGE: process.env.CACHE_AUTO_PURGE,
   CACHE_STORE: process.env.CACHE_STORE,
   CONFIG_PATH: process.env.CONFIG_PATH,
   DATABASE_URL: process.env.DATABASE_URL,
