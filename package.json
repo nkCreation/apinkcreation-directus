@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "directus": "^9.0.0-rc.88",
-    "directus-extension-editorjs": "^1.0.0-rc.85",
+    "directus": "^9.5.0",
+    "directus-extension-editorjs": "^1.2.0",
     "pg": "^8.7.1"
   }
 }
