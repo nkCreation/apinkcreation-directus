@@ -17,7 +17,7 @@ module.exports = {
   ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
   CORS_ENABLED: process.env.CORS_ENABLED,
   CORS_METHODS: process.env.CORS_METHODS,
-  CORS_ORIGIN: process.env.CORS_ORIGIN,
+  CORS_ORIGIN: process.env.CORS_ORIGIN || true,
   CACHE_ENABLED: process.env.CACHE_ENABLED,
   CACHE_NAMESPACE: process.env.CACHE_NAMESPACE,
   CACHE_AUTO_PURGE: process.env.CACHE_AUTO_PURGE,
