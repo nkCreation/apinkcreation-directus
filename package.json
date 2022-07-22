@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "directus": "9.14.3",
     "directus-extension-editorjs": "1.5.0",
     "pg": "8.7.3"
