@@ -1,0 +1,30 @@
+name: "Deploy on Dokku"
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+
+      - name: Push to dokku 🚀
+        uses: dokku/github-action@master
+        with:
+          branch: "main"
+          git_push_flags: "--force"
+          git_remote_url: "ssh://${{ secrets.DOKKU_URL }}"
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
