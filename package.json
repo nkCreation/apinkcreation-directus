@@ -13,5 +13,13 @@
     "directus": "9.14.3",
     "directus-extension-editorjs": "1.5.0",
     "pg": "8.7.3"
+  },
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
   }
 }
