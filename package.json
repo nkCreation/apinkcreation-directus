@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "directus": "9.14.3",
+    "directus": "^10.4.2",
     "directus-extension-editorjs": "1.5.0",
-    "pg": "8.7.3"
+    "pg": "^8.11.1"
   },
   "engines": {
     "node": "16.15.1",
